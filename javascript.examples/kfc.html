@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KFC Header Section</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.csss">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/JavaScript">
+ function() {
+  var header = document.getElementById('kfc-header');
+  if (window.scrollY > 100) {
+    header.style.backgroundColor = '#FF0000'; // Change to red background
+  } else {
+    header.style.backgroundColor = '#FFCC00'; // Revert to original background color
+  }
+});
+
+  </script>
+</head>
+<body>
+  <header id="kfc-header">
+    <div>
+    <h1>Welcome to KFC</h1>
+    </div>
+    <div><img src="../public/images/kfc.jpg" width="100%" height="200"></div>
+    <div style="display: flex; justify-content:space-between;">
+    <nav>
+        <span><a href="#">Home</a></span>
+        <span><a href="#">Menu</a></span>
+        <span><a href="#">Locations</a></span>
+        <span><a href="#">Contact</a></span>
+      
+    </nav>
+    </div>
+   
+  </header>
+</body>
+</html>

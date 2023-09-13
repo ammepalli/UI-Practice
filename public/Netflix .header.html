@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+    <link rel="shortcut icon" href="../public/images/netflix/N.png">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-size: cover;
+        }
+        .shade{
+            background-color: rgba(0,0,0,0.6);
+            height: 700px;
+            width: 110%;
+            margin-left: -10px;
+            margin-top: -20px;
+        }
+        .brand-name{
+            font-size: 40px;
+            color: red;
+            font-weight: bold;
+            font-family: arial;
+            text-shadow: 2px 2px 2px white;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            padding-top: 40px;
+            padding-left: 20px;
+            padding-right: 200px;
+        }
+        .language{
+            background-color: white;
+            color: black;
+            padding: 10px;
+        }
+        .language span{
+            margin-right: 10px;
+        }
+        .button{
+            background-color: red;
+            color: white;
+            padding: 5px;
+            margin-left: 20px;
+            width: 60px;
+            border-radius: 5px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .right-panel{
+            display: flex;
+            height: 35px;
+
+        }
+        section{
+            margin-top: 100px;
+            color: white;
+            font-family: arial;
+            margin-left: 20px;
+            text-align: center;
+        }
+        .title{
+            font-size: 50px;
+            font-weight: bold;
+           
+            text-align: center;
+        }
+        .sub-title{
+            font-size: 30px;
+            margin-top: 30px;
+
+        }
+        .register-text{
+            font-size: 20px;
+            margin-top: 30px;
+            align-items: center;
+            
+        }
+        .register-form{
+            margin-top: 20px;
+            display: flex;
+          
+        }
+        .email{
+            background-color: gray;
+            padding: 10px;
+            width: 300px;
+            height: 30px;
+            font-size: 20px;
+        }
+        .register-button{
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+            background-color: red;
+            color: white;
+            padding: 10px;
+            margin-left: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            
+        }
+            .txtbutton{
+                display: flex;
+                justify-content: center;
+                margin-left: 400px;
+            }
+    </style>
+
+</head>
+<body background="../public/images/netflix.bg.jpg">
+    <div class="shade">
+        <header>
+            <div>
+                <span class="brand-name">NETFLIX</span>
+            </div>
+            <div class="right-panel">
+                <div class="language">
+                    <span class="bi bi-globe"></span>
+                    <span>Language</span>
+                    <span class="bi bi-chevron-down"></span>
+                </div>
+                <div class="button">Signin</div>
+
+            </div>
+        </header>
+        <section>
+            <main>
+                <div class="title">Unlimited movies,Tv shows and more</div>
+                <div class="sub-title">Watch anywhere.Cancel anttime.</div>
+                <div class="register-text">Ready to watch? Enter your email to create or restart your membership.</div>
+                <div class="register-form">
+                    <div class="txtbutton">
+                       <div class="email">Enter Your Email </div>
+                         <div class="register-button">Get Started <span class="bi bi-chevron-right"></span></div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
+</body>
+</html>

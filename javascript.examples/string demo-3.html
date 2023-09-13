@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css ">
+    <script>
+        var regExp=//;
+        var hint ="";
+        function countryChanged(){
+            var mobiletextbox=document.getElementById("textmobile");
+            var country=document.getElementById("lstcountries").values;
+            var flagimage=document.getElementById("flagimage");
+            var flag="";
+
+            if(country=="india"){
+                flag=""
+            }
+            
+        }
+
+    </script>
+</head>
+<body class="container-fluid">
+    <h3>verify your mobile</h3>
+    <dl class="w-50">
+        <dt  class="mb-3">select country <img width="30" height="20" id="flagimage"></dt>
+        <dd>
+           <select  onchange="countrychanged()" class="form-select" id="lstcountries">
+            <option>select counrty</option>
+            <option>india</option>
+            <option>US</option>
+            <option>UK</option>
+           </select>
+        </dd>
+        <dt>your mobile</dt>
+        <dd><input type="text" id="txtmobile" class="form-control"></dd>
+        <dd id="lblmobile" class="text-danger  mb-4"></dd>
+        <button onclick="verifyclick()"  class="btn btn-primary w-100">verify</button>
+    </dl>
+    
+</body>
+</html>

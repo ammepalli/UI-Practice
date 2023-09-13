@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="../public/fevicon.ico">
+    
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(177, 177, 234);
+            color: white;
+            padding:15px;
+            font-family: arial;
+        }
+       
+        .brand-name{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        span{
+            margin-right: 20px;
+        }
+        article{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            box-shadow: 5px 5px 5px gray;
+        }
+        .bi-lightning-fill{
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-name">Shopper</span>
+        </div>
+    <div>
+        <nav>
+            <span>Home</span>
+            <span>Catalog</span>
+            <span>Pages</span>
+            <span>Shop</span>
+            <span>Blog</span>
+        </nav>
+    </div>
+        <div>
+            <span  class="bi bi-house"></span>
+            <span class=" bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart"></span>
+        </div>
+    </header>
+    <article>
+        <span class="bi bi-lightning-fill"></span>
+        <span>HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+        <span class="bi bi-lightning-fill"></span>
+    </article>
+    <img src="../public/images/kids.jpg" height="100%" width="100%">
+</body>
+</html>
